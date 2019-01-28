@@ -1,0 +1,72 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "96ea2898-b653-4063-9176-341c89f79908": {
+        "id": "96ea2898-b653-4063-9176-341c89f79908",
+        "parent": null,
+        "name": "cc",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "e80294d4-1d8c-4b5b-926d-0cda4c969b22"
+        ],
+        "isRemovable": false,
+        "filePath": "cc"
+      },
+      "e80294d4-1d8c-4b5b-926d-0cda4c969b22": {
+        "id": "e80294d4-1d8c-4b5b-926d-0cda4c969b22",
+        "parent": "96ea2898-b653-4063-9176-341c89f79908",
+        "name": "lambda.js",
+        "type": "LAMBDA_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "cc/lambda.js",
+        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed\"});\n}",
+        "triggers": [],
+        "config": {
+          "runtime": "nodejs8.10",
+          "timeout": 60,
+          "memory": 128
+        }
+      }
+    },
+    "deletedFiles": [],
+    "rootNode": "96ea2898-b653-4063-9176-341c89f79908",
+    "openFiles": [
+      "e80294d4-1d8c-4b5b-926d-0cda4c969b22"
+    ],
+    "currentFileId": "e80294d4-1d8c-4b5b-926d-0cda4c969b22",
+    "resources": {},
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    },
+    "lambdaId": "e80294d4-1d8c-4b5b-926d-0cda4c969b22"
+  },
+  "PROJECT_META": {
+    "projectName": "cc",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "platformRegions": {},
+    "lastSave": 1548679859960
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "cc",
+      "url": "https://github.com/Kumudikatest/cc"
+    }
+  }
+}
